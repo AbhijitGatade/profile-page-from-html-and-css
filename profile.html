@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        .banner {
+            width: 100%;
+            height: 350px;
+            background-image: url(banner.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .profile {
+            height: 200px;
+            width: auto;
+            border-radius: 50%;
+        }
+        
+        .services {
+            text-align: center;
+            border: solid 2px red;
+            border-radius: 30px;
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            box-shadow: 10px 10px 5px grey;
+        }
+    </style>
+</head>
+
+<body style="background-color: antiquewhite;overflow-x:hidden;font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <div class="banner"></div>
+    <div style="width:100%;z-index:1;position: absolute;margin-top: -100px;padding: 20px;">
+        <table style="width: 100%;">
+            <tr>
+                <td style="width:200px;">
+                    <img src="abhijit.jpg" class="profile" />
+                </td>
+                <td style="vertical-align: center;padding-top: 80px;">
+                    <h1>Abhijit Gatade</h1>
+                    <h3>Programming Coach</h3>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div style="width: 100%;">
+                        <h2>About</h2>
+                        <p>Abhijit Gatade is marathi entrepreneur and trainer who trains students and professionals in area of website development, application development and data science and engineering.</p>
+                    </div>
+                    <div style="width: 100%;">
+                        <h2>Services</h2>
+                        <div style="width: 100%;display: flex;">
+                            <div style="width:300px;" class="services">
+                                <img src="web-development.png" alt="Web Development" style="height: 100px; width: auto;" />
+                                <h3>Web Development</h3>
+                                <p style="text-align: justify;">
+                                    There are many technologies we can use for website, e-commerce and web application development. But confused which to pick to start career? Abhijit will guide you with website development technologies.
+                                </p>
+                            </div>
+                            <div style="width:300px;" class="services">
+                                <img src="app-development.png" alt="App Development" style="height: 100px; width: auto;" />
+                                <h3>App Development</h3>
+                                <p style="text-align: justify;">
+                                    Everyday lacs of applications are getting launched on google and apple app store. Native, Hybrid, Javascript based applications are being developed. Confused which to choose or how to start? Abhijit will guide you with mobile application development.
+                                </p>
+                            </div>
+                            <div style="width:300px;" class="services">
+                                <img src="data-science-engineering.png" alt="Machine Learning" style="height: 100px; width: auto;" />
+                                <h3>Machine Learning</h3>
+                                <p style="text-align: justify;">
+                                    These websites and applications are generating lot of data daily. Data need to be analyzed and pick up decisions, plot graphs to present business movement. Confused which tool to use? Abhijit will guide you with data science and engineering projects.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
